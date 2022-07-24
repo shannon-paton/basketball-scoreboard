@@ -31,3 +31,30 @@ h3 {
 .score {
     font-size: 90px;
 }
+
+.adding-buttons {
+    background-color:  transparent;
+    width: 45px;
+    height: 45px;
+    border:  2px solid;
+    border-radius:  5%;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    color: #9AABD8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
