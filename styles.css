@@ -1,12 +1,28 @@
 body {
     margin: 0;
+    background-color:  #1B244A;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+
+h3 {
+    font-family:  Verdana, sans-serif;
+    color:  #EEEEEE;
+    font-size: 40px;
 }
 
 .score-background {
-    text-align: center;
+    width: 155px;
+    height: 125px;
+    background-color: #080001;
+    color: #F94F6D; /* color of score */
+    font-family: Cursed Timer ULiL;
+}
+
+.score {
+    font-size: 90px;
 }
