@@ -7,23 +7,23 @@
             <div>
                 <h3>HOME</h3>
                 <div class="score-background">
-                    <p class="score">0</p>
+                    <p id="home-score">0</p>
                 </div>
                 <div class="buttons-container">
-                    <button class="buttons" id="homeplus1">+1</button>
-                    <button class="buttons" id="homeplus2">+2</button>
-                    <button class="buttons" id="homeplus3">+3</button>
+                    <button class="buttons" id="homeplus1" onclick="buttonClicked(1, 'home')">+1</button>
+                    <button class="buttons" id="homeplus2" onclick="buttonClicked(2, 'home')">+2</button>
+                    <button class="buttons" id="homeplus3" onclick="buttonClicked(3, 'home')">+3</button>
                 </div>
             </div>
             <div>
                 <h3>GUEST</h3>
                 <div class="score-background">
-                    <p class="score">0</p>
+                    <p id="guest-score">0</p>
                 </div>
                 <div class="buttons-container">
-                    <button class="buttons" id="guestplus1">+1</button>
-                    <button class="buttons" id="guestplus2">+2</button>
-                    <button class="buttons" id="guestplus3">+3</button>
+                    <button class="buttons" id="guestplus1" onclick="buttonClicked(1, 'guest')">+1</button>
+                    <button class="buttons" id="guestplus2" onclick="buttonClicked(2, 'guest')">+2</button>
+                    <button class="buttons" id="guestplus3" onclick="buttonClicked(3, 'guest')">+3</button>
                 </div>
             </div>
         </div>

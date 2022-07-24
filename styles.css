@@ -24,19 +24,16 @@ h3 {
     font-size: 40px;
 }
 
-.score-background {
+.score-background { /* styles contents of score background and text in boxes */
     width: 155px;
     height: 125px;
     background-color: #080001;
     color: #F94F6D; /* color of score */
     font-family: Cursed Timer ULiL;
+    font-size: 90px;
     display: flex;
     align-items:center;
     justify-content:center;
-}
-
-.score {
-    font-size: 90px;
 }
 
 .buttons-container {
