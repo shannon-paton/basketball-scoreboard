@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-background {
+    text-align: center;
+}
