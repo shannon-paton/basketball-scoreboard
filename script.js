@@ -3,26 +3,17 @@ let guestScore = document.getElementById("guest-score");
 
 function buttonClicked(number, team) { // get number from button and team
 
-	console.log(number, team)
-
-	// get current score
 	if ( team === 'home')  {
+		// get current score
 		let currentScore = parseInt(homeScore.innerHTML);
+		// add number to current score
 		currentScore += number;
-		console.log("current score is" + " " + currentScore)
-
-
+		// update score
+		homeScore.innerHTML = currentScore;
 	}
 	else {
-		let currentScore = parseInt(guestScore.innerHTML)
+		let currentScore = parseInt(guestScore.innerHTML);
 		currentScore += number;
-		console.log("current score is" + " " + currentScore)
-
-
+		guestScore.innerHTML = currentScore;
 	}
-
-	// add number to current score
-
-	// update score
-
 }
